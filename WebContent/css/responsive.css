@@ -1,0 +1,72 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media (min-width : 0px) and (max-width : 480px) {
+    .imageInstagram {
+        height: 120px;
+        width:100px;
+        margin-left: 20px;
+        background-size: 100px auto;
+    }
+
+    .desenvolvido {
+        height: 70px;
+        width:70px;
+        margin-right: 10px;
+        background-size: 26px 26px;
+    }
+
+    .disciplina {
+        height: 70px;
+        width:70px;
+        margin-right: 10px;
+        background-size: 26px 26px;
+    }
+
+    .container-photos__item {
+        width: 100%;
+    }
+}
+
+/*other tablets*/
+@media (min-width : 481px) and (max-width : 767px) {
+    .imageInstagram {
+        height: 160px;
+        width:150px;
+        margin-left: 60px;
+        background-size: 150px auto;
+    }
+
+    .desenvolvido {
+        height: 100px;
+        width:100px;
+        margin-right: 20px;
+        background-size: 36px 36px;
+    }
+
+    .disciplina {
+        height: 100px;
+        width:100px;
+        margin-right: 20px;
+        background-size: 36px 36px;
+    }
+}
+
+/*other tablets*/
+@media (min-width : 768px) and (max-width : 1040px) {
+    .imageInstagram {
+        height: 160px;
+        width:200px;
+        margin-left: 60px;
+    }
+
+    .desenvolvido {
+        height: 140px;
+        width:200px;
+        margin-right: 30px;
+    }
+
+    .disciplina {
+         height: 140px;
+        width:200px;
+        margin-right: 30px;
+    }
+}
