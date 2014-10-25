@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+
 <!DOCTYPE html>
 
 <html lang="en" class="no-js">
@@ -33,15 +36,13 @@
 					</div>
 				</nav>
 				<nav class="menu-side">
-					<a href="#">Recent Stories</a>
-					<a href="#">Reading List</a>
-					<a href="#">My Stories</a>
-					<a href="#">Categories</a>
 					<a href="#">
 						<i class="glyphicon glyphicon-search"></i>
 						<input class="search-tag" id="search-tag" name="search-tag" title="search tag" type="text" placeholder="Insert the tag...">
 						<!-- <div class="loader"></div> -->
 					</a>
+					<a href="#">Profile</a>
+					<a href="#">Feed</a>
 				</nav>
 			</div>
 			<button class="menu-button" id="open-button">Open Menu</button>
