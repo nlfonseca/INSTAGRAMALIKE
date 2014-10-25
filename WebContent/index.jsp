@@ -37,11 +37,11 @@
 				</nav>
 				<nav class="menu-side">
 					<a href="#">
-						<i class="glyphicon glyphicon-search"></i>
+						<i class="fa fa-search"></i>
 						<input class="search-tag" id="search-tag" name="search-tag" title="search tag" type="text" placeholder="Insert the tag...">
 						<!-- <div class="loader"></div> -->
 					</a>
-					<a href="#">Profile</a>
+					<a href="#"><i class="fa fa-user"></i> Profile</a>
 					<a href="#">Feed</a>
 				</nav>
 			</div>
@@ -79,11 +79,11 @@
 		
         <script src="js/jquery-1.11.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/main.js"></script>
         <script src="js/popup.js"></script>
         <script src="js/connect-instagram.js"></script>
         
-		<script src="js/classie.js"></script>
-		<script src="js/main.js"></script>
     </body>
 
 </html>

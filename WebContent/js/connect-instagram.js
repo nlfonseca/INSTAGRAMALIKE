@@ -115,6 +115,7 @@ function getInfoInstagram(value, type, isInput, callUrl) {
 $(function() {
     $('.search-tag').on('keypress', function(e) {
         if(e.which == 13) {
+            $('body').removeClass('show-menu');
             getInfoInstagram($(this).val(), "tags", true);
         }
     });

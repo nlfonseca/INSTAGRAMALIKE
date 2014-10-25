@@ -29,6 +29,15 @@ public class MediaService {
 	// ===========================================
 	// GET
 	// ===========================================
+	@GET
+	@Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
+	public Response getCenas(
+			@DefaultValue("1.60") @QueryParam("h") double height,
+			@DefaultValue("60.0") @QueryParam("w") double weight) {
+
+		double imc = 20;
+		return Response.ok(imc).build();
+	}
 	
 	
 	// ===========================================
